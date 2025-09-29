@@ -1,3 +1,4 @@
+/* src/App.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -25,10 +26,10 @@ body {
 }
 
 .hero {
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
   background: #0070f3;
-  color: white;
+  color: #fff;
 }
 
 .section {
@@ -40,9 +41,37 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.apps-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.app-item a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.app-item p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
 .footer {
   text-align: center;
   padding: 1rem;
   background: #222;
   color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }

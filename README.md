@@ -1,3 +1,12 @@
+# rfc → React Functional Component (default export ke sath)
+
+# rafce → React Arrow Function Component (default export ke sath)
+
+# rfce → Functional Component (default export ke sath)
+
+# rfc → Component (agar tum baad me export default manually likhna chaho to)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
