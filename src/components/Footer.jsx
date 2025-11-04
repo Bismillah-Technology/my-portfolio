@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer style={styles.footer}>
-      <p style={styles.text}>© {new Date().getFullYear()} My Website | All Rights Reserved</p>
+      <p style={styles.text}>© {new Date().getFullYear()} Muhammad Ali Website | All Rights Reserved</p>
       <div style={styles.links}>
         <a href="/about" style={styles.link}>About</a>
         <a href="/contact" style={styles.link}>Contact</a>
