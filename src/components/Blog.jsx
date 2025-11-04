@@ -101,3 +101,70 @@ export default function Blog() {
     </section>
   );
 }
+
+
+// import React from "react";
+// import { motion } from "framer-motion";
+
+// export default function Blog() {
+//   const blogs = [
+//     {
+//       title: "🚀 Why Flutter is the Future of App Development",
+//       date: "October 2025",
+//       desc: "Discover how Flutter empowers developers to build stunning apps for Android, iOS, and web — all from a single codebase.",
+//       link: "#",
+//     },
+//     {
+//       title: "💡 JR-Sons Innovation Story",
+//       date: "September 2025",
+//       desc: "From small ideas to global impact — how JR-Sons is reshaping digital experiences with creativity and modern technology.",
+//       link: "#",
+//     },
+//     {
+//       title: "🌍 Building Globally, Thinking Locally",
+//       date: "August 2025",
+//       desc: "Our vision of connecting people and products worldwide through powerful, elegant, and scalable apps.",
+//       link: "#",
+//     },
+//   ];
+
+//   return (
+//     <section className="bg-black text-white py-24 px-6 md:px-20">
+//       <div className="max-w-6xl mx-auto text-center">
+//         <motion.h2
+//           className="text-5xl font-extrabold mb-12 bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500 bg-clip-text text-transparent"
+//           initial={{ opacity: 0, y: -40 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 1 }}
+//         >
+//           Latest <span className="text-yellow-400">Blogs</span>
+//         </motion.h2>
+
+//         <div className="grid md:grid-cols-3 gap-10">
+//           {blogs.map((blog, i) => (
+//             <motion.div
+//               key={i}
+//               className="p-8 rounded-3xl bg-white/10 border border-white/20 backdrop-blur-md text-left shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300"
+//               initial={{ opacity: 0, y: 40 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ delay: 0.3 + i * 0.2, duration: 0.8 }}
+//             >
+//               <p className="text-sm text-gray-400 mb-3">{blog.date}</p>
+//               <h3 className="text-2xl font-bold mb-4 text-yellow-400">
+//                 {blog.title}
+//               </h3>
+//               <p className="text-gray-300 mb-6">{blog.desc}</p>
+//               <a
+//                 href={blog.link}
+//                 className="text-pink-400 font-semibold hover:text-yellow-400 transition"
+//               >
+//                 Read More →
+//               </a>
+//             </motion.div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
+

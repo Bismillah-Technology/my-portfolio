@@ -1,10 +1,9 @@
-// src/components/Header.jsx
 import React from "react";
 
-const Header = () => {
+export default function Header() {
   return (
     <header className="header">
-      <h1>JDR Consultancy</h1>
+      <h1>JR-Sons Consultancy</h1>
       <nav>
         <a href="#about">About</a>
         <a href="#apps">Apps</a>
@@ -13,6 +12,4 @@ const Header = () => {
       </nav>
     </header>
   );
-};
-
-export default Header;
+}

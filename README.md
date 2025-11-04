@@ -6,6 +6,8 @@
 
 # rfc → Component (agar tum baad me export default manually likhna chaho to)
 
+Remove-Item -Recurse -Force .\node_modules
+Remove-Item -Force .\package-lock.json
 
 # Getting Started with Create React App
 
