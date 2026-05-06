@@ -28,7 +28,7 @@ export default function AboutJR() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          About <span className="text-yellow-400">JR-Sons</span>
+          About <span className="text-yellow-400">Ali Consultancy</span>
         </motion.h2>
 
         {/* Tagline */}
@@ -38,7 +38,7 @@ export default function AboutJR() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 1 }}
         >
-          <span className="font-semibold text-pink-400">JR-Sons</span> is more
+          <span className="font-semibold text-pink-400">Ali Consultancy</span> is more
           than just a company – it’s a movement of{" "}
           <span className="text-yellow-400 font-semibold">innovation</span>,{" "}
           <span className="text-pink-500 font-semibold">creativity</span>, and{" "}
