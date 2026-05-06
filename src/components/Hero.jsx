@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section style={styles.hero}>
       <div style={styles.overlay}>
-        <h1 style={styles.title}>Welcome to <span style={styles.brand}>JR-Sons</span></h1>
+        <h1 style={styles.title}>Welcome to <span style={styles.brand}>Ali-Tech</span></h1>
         <p style={styles.subtitle}>
           Building trust, quality, and innovation for generations. <br />
           Proudly serving our customers with excellence.
