@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AdBanner from "./components/AdBanner";
 import SpeedBrowserPrivacyPolicy from "./components/SpeedBrowserPrivacyPolicy";
-import { i } from "framer-motion/client";
+// import { i } from "framer-motion/client";
 
 function HomePage() {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import AdBanner from "./AdBanner";
 
 export default function SpeedBrowserPrivacyPolicy() {
   return (
