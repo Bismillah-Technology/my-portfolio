@@ -23,21 +23,55 @@ export default function SpeedBrowserPrivacyPolicy() {
         </p>
 
         <p style={styles.text}>
+          This Privacy Policy is aligned with Google Play Data Safety requirements.
+        </p>
+
+        <p style={styles.text}>
           By using this app, you agree to the collection and use of information in accordance with this policy.
         </p>
 
+        {/* DATA SAFETY SECTION */}
+        <h2 style={styles.heading}>Data Safety & Handling</h2>
+
+        <p style={styles.text}>
+          Speed Browser Fast Mini & Lite collects limited data only for app functionality, performance,
+          and advertising services.
+        </p>
+
+        <ul style={styles.list}>
+          <li>Web browsing history (stored locally on device)</li>
+          <li>In-app search history (stored locally on device)</li>
+          <li>App interactions (user actions inside the app)</li>
+          <li>Crash logs (for bug fixing and stability)</li>
+          <li>Device or other IDs (used for advertising via AdMob)</li>
+        </ul>
+
+        <p style={styles.text}>
+          This data is used strictly for app functionality, analytics, and advertising purposes.
+          We do not sell personal data or misuse user information.
+        </p>
+
+        <p style={styles.text}>
+          Some data may be temporarily processed in memory (ephemeral processing) for real-time features.
+        </p>
+
+        <p style={styles.text}>
+          Users can delete browsing history and search history anytime from app settings.
+        </p>
+
+        {/* INFORMATION SECTION */}
         <h2 style={styles.heading}>Information Collection & Use</h2>
 
         <p style={styles.text}>
-          Speed Browser Fast Mini & Lite is a lightweight web browser.
-          We do not collect personal browsing history or personal user data.
+          Speed Browser Fast Mini & Lite is a lightweight web browser designed for fast and secure browsing.
         </p>
 
         <p style={styles.text}>
           The app may request basic permissions such as internet access, storage (for downloads),
-          and network state. These are only used for browser functionality.
+          and network state. These permissions are used only for browser functionality.
         </p>
 
+        {/* THIRD PARTY */}
         <h2 style={styles.heading}>Third-Party Services</h2>
 
         <p style={styles.text}>
@@ -49,20 +83,23 @@ export default function SpeedBrowserPrivacyPolicy() {
           <li>Google AdMob</li>
         </ul>
 
+        {/* LOG DATA */}
         <h2 style={styles.heading}>Log Data</h2>
 
         <p style={styles.text}>
-          In case of an error, we may collect diagnostic information such as device model,
+          In case of an error, we may collect diagnostic data such as device model,
           OS version, app performance, and crash logs to improve stability.
         </p>
 
+        {/* COOKIES */}
         <h2 style={styles.heading}>Cookies</h2>
 
         <p style={styles.text}>
-          Websites visited through the browser may use cookies. These are controlled by the websites,
+          Websites visited through the browser may use cookies. These cookies are controlled by the websites,
           not by Speed Browser Fast Mini & Lite.
         </p>
 
+        {/* SERVICE PROVIDERS */}
         <h2 style={styles.heading}>Service Providers</h2>
 
         <p style={styles.text}>
@@ -75,13 +112,15 @@ export default function SpeedBrowserPrivacyPolicy() {
           <li>Crash reporting</li>
         </ul>
 
+        {/* SECURITY */}
         <h2 style={styles.heading}>Security</h2>
 
         <p style={styles.text}>
-          We take reasonable measures to protect user information, but no method of internet transmission
-          or storage is 100% secure.
+          We take reasonable measures to protect user data. However, no method of internet transmission
+          or electronic storage is 100% secure.
         </p>
 
+        {/* CHILDREN */}
         <h2 style={styles.heading}>Children’s Privacy</h2>
 
         <p style={styles.text}>
@@ -89,12 +128,14 @@ export default function SpeedBrowserPrivacyPolicy() {
           from children.
         </p>
 
+        {/* CHANGES */}
         <h2 style={styles.heading}>Changes to This Policy</h2>
 
         <p style={styles.text}>
           We may update this Privacy Policy from time to time. Users are advised to review this page periodically.
         </p>
 
+        {/* CONTACT */}
         <h2 style={styles.heading}>Contact Us</h2>
 
         <p style={styles.text}>
