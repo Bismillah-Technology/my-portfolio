@@ -62,10 +62,6 @@ export default function SpeedBrowserPrivacyPolicy() {
 
         {/* INFORMATION SECTION */}
         <h2 style={styles.heading}>Information Collection & Use</h2>
-
-      
-        <AdBanner />
-
         <p style={styles.text}>
           Speed Browser Fast Mini & Lite is a lightweight web browser designed for fast and secure browsing.
         </p>
