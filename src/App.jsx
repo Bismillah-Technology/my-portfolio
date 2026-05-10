@@ -9,8 +9,9 @@ import AppsList from "./components/AppsList";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import AdBanner from "./components/AdBanner";
 import SpeedBrowserPrivacyPolicy from "./components/SpeedBrowserPrivacyPolicy";
+import { i } from "framer-motion/client";
 
 function HomePage() {
   return (
@@ -19,10 +20,14 @@ function HomePage() {
 
       <Hero />
 
+<div style={{ backgroundColor: "black" }}>
+                <AdBanner />
+      </div>
+      
       <section id="about">
         <AboutJR />
       </section>
-
+      
       <section id="apps" className="section">
         <h2>My Apps</h2>
         <AppsList />
