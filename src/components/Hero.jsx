@@ -1,23 +1,32 @@
-import React from 'react'
+import React from "react";
 
 export default function Hero() {
   return (
     <section style={styles.hero}>
       <div style={styles.overlay}>
-        <h1 style={styles.title}>Welcome to <span style={styles.brand}>Ali-Tech</span></h1>
+
+        <h1 style={styles.title}>
+          Welcome to <span style={styles.brand}>Bismillah Technologies</span>
+        </h1>
+
         <p style={styles.subtitle}>
           Building trust, quality, and innovation for generations. <br />
-          Proudly serving our customers with excellence.
+          Proudly delivering secure apps, smart tools, and modern digital solutions.
         </p>
+
         <div style={styles.buttons}>
-          <a href="/about" style={styles.btnPrimary}>Learn More</a>
-          <a href="/contact" style={styles.btnSecondary}>Contact Us</a>
+          <a href="#about" style={styles.btnPrimary}>
+            Learn More
+          </a>
+          <a href="#contact" style={styles.btnSecondary}>
+            Contact Us
+          </a>
         </div>
+
       </div>
     </section>
-  )
+  );
 }
-
 const styles = {
   hero: {
     position: 'relative',
