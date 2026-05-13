@@ -17,6 +17,7 @@ import AdBanner from "./components/AdBanner";
 import SpeedBrowserPrivacyPolicy from "./components/SpeedBrowserPrivacyPolicy";
 import FlutterAppBundleGuide from "./components/FlutterAppBundleGuide";
 import LottieFlutterBlog from "./components/blogs/LottieBlog";
+import SmartManagerPrivacyPolicy from "./components/SmartManagerPrivacyPolicy";
 
 function HomePage() {
   return (
@@ -64,7 +65,11 @@ function App() {
             path="/speed-browser-privacy-policy"
             element={<SpeedBrowserPrivacyPolicy />}
           />
-
+          {/* Smart Manager Privacy Policy */}
+          <Route
+          path="/smart-manager-privacy-policy"
+          element={<SmartManagerPrivacyPolicy />}
+          />
           {/* FLUTTER GUIDE */}
           <Route
             path="/flutter-app-bundle-guide"
