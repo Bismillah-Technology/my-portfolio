@@ -21,7 +21,7 @@ import SmartManagerPrivacyPolicy from "./components/SmartManagerPrivacyPolicy";
 import Modern404Game from "./components/Modern404Game";
 import BismillahTechnologyWebsite from "./components/a_1_it_site";
 import GameBoxPrivacyPolicy from "./components/GameBoxPrivacyPolicy";
-
+ 
 function HomePage() {
   return (
     <>
@@ -64,7 +64,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
 
           <Route 
-          path="/game-box"
+          path="/game-box-privacy-policy"
           element={<GameBoxPrivacyPolicy />}
           />
           {/* PRIVACY POLICY */}
