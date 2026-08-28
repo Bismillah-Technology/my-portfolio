@@ -18,6 +18,9 @@ import SpeedBrowserPrivacyPolicy from "./components/SpeedBrowserPrivacyPolicy";
 import FlutterAppBundleGuide from "./components/FlutterAppBundleGuide";
 import LottieFlutterBlog from "./components/blogs/LottieBlog";
 import SmartManagerPrivacyPolicy from "./components/SmartManagerPrivacyPolicy";
+import Modern404Game from "./components/Modern404Game";
+import BismillahTechnologyWebsite from "./components/a_1_it_site";
+import GameBoxPrivacyPolicy from "./components/GameBoxPrivacyPolicy";
 
 function HomePage() {
   return (
@@ -60,6 +63,10 @@ function App() {
           {/* HOME */}
           <Route path="/" element={<HomePage />} />
 
+          <Route 
+          path="/game-box"
+          element={<GameBoxPrivacyPolicy />}
+          />
           {/* PRIVACY POLICY */}
           <Route
             path="/speed-browser-privacy-policy"
@@ -81,7 +88,14 @@ function App() {
             path="/lottie-flutter-blog"
             element={<LottieFlutterBlog />}
           />
-
+          <Route
+            path="*"
+            element={<Modern404Game />}
+          />
+          <Route
+            path="/a1"
+            element={<BismillahTechnologyWebsite />}
+          />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
