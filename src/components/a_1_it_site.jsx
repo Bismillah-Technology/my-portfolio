@@ -61,6 +61,7 @@ export default function BismillahTechnologyWebsite() {
               <a
                 href="https://play.google.com/store/apps/developer?id=Bismillah+Technology"
                 target="_blank"
+                rel="noreferrer"
                 className="px-8 py-4 bg-yellow-500 hover:bg-yellow-400 text-black font-bold rounded-2xl transition-all duration-300 hover:scale-105 shadow-2xl"
               >
                 View Play Store
@@ -153,6 +154,7 @@ export default function BismillahTechnologyWebsite() {
             <a
               href="https://play.google.com/store/apps/developer?id=Bismillah+Technology"
               target="_blank"
+              rel="noreferrer"
               className="px-6 py-4 rounded-2xl bg-yellow-500 text-black font-bold hover:scale-105 transition-all duration-300"
             >
               Open Developer Profile
@@ -262,6 +264,7 @@ export default function BismillahTechnologyWebsite() {
             <a
               href="https://play.google.com/store/apps/developer?id=Bismillah+Technology"
               target="_blank"
+              rel="noreferrer"
               className="px-8 py-4 rounded-2xl bg-yellow-500 text-black font-bold hover:scale-105 transition-all duration-300"
             >
               Visit Play Store

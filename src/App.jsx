@@ -64,7 +64,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
 
           <Route 
-          path="/game-box-privacy-policy.page"
+          path="/game-box-privacy-policy"
           element={<GameBoxPrivacyPolicy />}
           />
           {/* PRIVACY POLICY */}
