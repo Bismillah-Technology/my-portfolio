@@ -16,7 +16,7 @@ import SpeedBrowserPrivacyPolicy from "./components/SpeedBrowserPrivacyPolicy";
 import FlutterAppBundleGuide from "./components/FlutterAppBundleGuide";
 import LottieFlutterBlog from "./components/blogs/LottieBlog";
 import SmartManagerPrivacyPolicy from "./components/SmartManagerPrivacyPolicy";
-import Modern404Game from "./components/Modern404Game";
+// import Modern404Game from "./components/Modern404Game";
 import BismillahTechnologyWebsite from "./components/a_1_it_site";
 import GameBoxPrivacyPolicy from "./components/GameBoxPrivacyPolicy";
 
@@ -62,8 +62,8 @@ import GameBoxPrivacyPolicy from "./components/GameBoxPrivacyPolicy";
 // ];
 
 
-const developerStoreUrl =
-  "https://play.google.com/store/apps/developer?id=Bismillah+Technology";
+// const developerStoreUrl =
+//   "https://play.google.com/store/apps/developer?id=Bismillah+Technology";
 
 const apps = [
     {
